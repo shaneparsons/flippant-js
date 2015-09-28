@@ -2,17 +2,12 @@
 	-webkit-transform: perspective(500px) rotateY(0deg);
 	-moz-transform: perspective(500px) rotateY(0deg);
 	transform: perspective(500px) rotateY(0deg);
-
-	/*z-index: 200;*/
 }
 
 .flippant-back {
 	-webkit-transform: perspective(500px) rotateY(-180deg);
 	-moz-transform: perspective(500px) rotateY(-180deg);
 	transform: perspective(500px) rotateY(-180deg);
-
-	/*height: 0;*/
-	/*z-index: 200;*/
 }
 
 .flippant, .flippant-back {
