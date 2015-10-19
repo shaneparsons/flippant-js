@@ -1,0 +1,24 @@
+{
+  "name": "flippant.js",
+  "version": "1.0.0",
+  "description": "A mini dependancy-less UI lib for flipping over DOM nodes",
+  "main": "flippant.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneparsons/flippant.js.git"
+  },
+  "keywords": [
+    "flippant",
+    "flip",
+    "js"
+  ],
+  "author": "Shane Parsons <s.parsons@hotmail.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaneparsons/flippant.js/issues"
+  },
+  "homepage": "https://github.com/shaneparsons/flippant.js#readme"
+}
