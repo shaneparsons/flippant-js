@@ -36,7 +36,9 @@
 
             exports.flip = flip
 
-            //-------------------
+            // ---------------------------------------------------------
+            // Would like to remove everything before this point
+            // ---------------------------------------------------------
 
             function flip(flipper, content, type, class_name, timeout) { // flipper, content, type, container
                 var position, back, style_func
