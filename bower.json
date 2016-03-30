@@ -1,5 +1,5 @@
 {
-  "name": "flippant.js",
+  "name": "flippant-js",
   "description": "A mini dependancy-less UI lib for flipping over DOM nodes",
   "main": "flippant.js",
   "authors": [
