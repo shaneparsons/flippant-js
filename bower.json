@@ -1,22 +1,26 @@
 {
-  "name": "flippant-js",
-  "description": "A mini dependancy-less UI lib for flipping over DOM nodes",
-  "main": "flippant.js",
-  "authors": [
-    "Shane Parsons <s.parsons@hotmail.ca>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "flippant",
-    "flip",
-    "js"
-  ],
-  "homepage": "https://github.com/shaneparsons/flippant.js",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "flippant-js",
+    "version": "1.0.1",
+    "description": "A mini dependency-less UI lib for flipping over DOM nodes",
+    "main": [
+        "dist/flippant.min.css",
+        "dist/flippant.min.js"
+    ],
+    "authors": [
+        "Shane Parsons <s.parsons@hotmail.ca>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "flippant",
+        "flip",
+        "js"
+    ],
+    "homepage": "https://github.com/shaneparsons/flippant-js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
