@@ -14,11 +14,11 @@ Feel free to use it if you want, just know that I won't necessarily address any 
 ## Example:
 
     var front = document.getElementById('flipthis');
-    var back_content = "I'm the back!"; // Generate or pull any HTML you want for the back.
+    var back_content = "<h1>I'm the back!</h1>"; // Generate or pull any HTML you want for the back.
     var back;
     
     // to flip
-    back = flippant.flip(element_to_flip, content_for_back, type(modal/card), classname_for_back)
+    back = flippant.flip(front, back_content) // flip(element_to_flip, content_for_back, type(modal/card), classname_for_back)
     
     // to close (i.e. to flip back)
     back.close()
