@@ -19,7 +19,7 @@
   transform: perspective(500px) rotateY(180deg);
 }
 
-.flippant-back.flipped  {
+.flippant-back.flipped {
   transform: perspective(500px) rotateY(0deg);
 }
 
@@ -32,8 +32,8 @@
   height: 100%;
   padding: 10px 15px;
   box-sizing: border-box;
-  background: rgba(0,0,0,0.7);
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   overflow-y: scroll;
 }
 
