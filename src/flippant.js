@@ -1,18 +1,18 @@
 var flippant = (function () {
 
-  var flip = function (flipper, content, type, class_name, timeout) {
-    var position, back, style_func;
+  var flip = function (flipper, content, type, extra_class, timeout) {
+    var position, back, style_func, type_class;
     timeout = timeout || 400;
     type = type || "card";
 
     if (type === "modal") {
-      class_name = class_name || "flippant-modal-dark";
+      type_class = "flippant-modal-dark";
       position = "fixed";
       style_func = null_styles;
     }
 
     if (type === "card") {
-      class_name = class_name || "flippant-modal-light";
+      type_class = "flippant-modal-light"
       position = "absolute";
       style_func = card_styles;
     }
@@ -24,7 +24,8 @@ var flippant = (function () {
     back.innerHTML = content;
     flipper.classList.add('flippant');
     back.classList.add('flippant-back');
-    back.classList.add(class_name);
+    back.classList.add(type_class);
+    back.classList.add(extra_class);
 
     if (position == "absolute") {
       style_func(back)
@@ -50,7 +51,8 @@ var flippant = (function () {
       flipper.classList.remove('flipped');
 
       window.setTimeout(function () {
-        back.classList.remove(class_name);
+        back.classList.remove(type_class);
+        back.classList.remove(extra_class);
         document.body.removeChild(back);
       }, timeout);
     }
